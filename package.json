@@ -1,0 +1,17 @@
+{
+  "name": "apiml-changelog-generator",
+  "version": "1.0.0",
+  "description": "Generator for changelog of APIML",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Janda",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  }
+}
